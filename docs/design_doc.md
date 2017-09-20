@@ -64,6 +64,8 @@ To fully understand and capture the main idea about this project, you need to lo
 * [Optimizing Queries with EXPLAIN](https://dev.mysql.com/doc/refman/5.7/en/using-explain.html).
 * [How to Optimize MySQL Queries with Query Profiler](https://www.youtube.com/watch?v=WixrenRiTTE).
 * [Steps & Procedure to Use MSSQL Query Analyzer](http://j2eetutorials.50webs.com/use-mssql.html).
+* [SQL Server Query Analyzer](http://www.hitsw.com/support/kbase/sql_servers/SQL2000/Query_analyzer.htm).
+* [The Guru's Guide to Transact SQL](http://ccs1.hnue.edu.vn/hoanpt/DBMS/REF/thegurusguidetotransactsql2000.pdf).
 
 
 
