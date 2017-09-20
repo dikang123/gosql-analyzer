@@ -72,6 +72,7 @@ To fully understand and capture the main idea about this project, you need to lo
 * [EverSQL - Free Plan](https://www.eversql.com/sql-query-optimizer/?type=free).
 
 
+
 # Future features
 
 * Add support for other DBMSs like Oracle, PostgreSQL etc.

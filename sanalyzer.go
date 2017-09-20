@@ -60,6 +60,7 @@ func main() {
 	fmt.Println()
 
 	for {
+		// Shell of the tool.
 		c.Printf("gosql-query-analyzer> ")
 
 		reader := bufio.NewReader(os.Stdin)
