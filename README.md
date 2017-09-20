@@ -13,7 +13,7 @@ The tool for analyzing SQL Queries to improve on Database Performance in DBMSs w
 
 ```shell
 $ git clone https://github.com/ch3nkula/gosql-analyzer.git
-$ go get github.com/fatih/color
+$ go get -u github.com/fatih/color
 ```
 
 2. Build the application:
@@ -43,4 +43,4 @@ You can read the [design document](docs/design_doc.md) to understand how the app
 
 # Credits
 
-* [Alangi Derick](https://github.com/ch3nkula) - Author 
+* [Alangi Derick](https://github.com/ch3nkula) - Author & Maintainer.
