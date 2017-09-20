@@ -63,6 +63,7 @@ To fully understand and capture the main idea about this project, you need to lo
 * [A Tool for Analyzing and Tuning Relational Database Applications: SQL Query Analyzer and Schema EnHancer (SQUASH)](https://www.researchgate.net/publication/221398010_A_Tool_for_Analyzing_and_Tuning_Relational_Database_Applications_SQL_Query_Analyzer_and_Schema_EnHancer_SQUASH) - Research Paper.
 * [Optimizing Queries with EXPLAIN](https://dev.mysql.com/doc/refman/5.7/en/using-explain.html).
 * [How to Optimize MySQL Queries with Query Profiler](https://www.youtube.com/watch?v=WixrenRiTTE).
+* [Steps & Procedure to Use MSSQL Query Analyzer](http://j2eetutorials.50webs.com/use-mssql.html).
 
 
 
@@ -70,6 +71,7 @@ To fully understand and capture the main idea about this project, you need to lo
 * [Data Pine SQL Analyzer tool for MySQL](https://www.datapine.com/sql-query-analyzer).
 * [Solar Wind SQL Query Analyzer](http://www.solarwinds.com/solutions/sql-query-analyzer).
 * [EverSQL - Free Plan](https://www.eversql.com/sql-query-optimizer/?type=free).
+* [AQUAFOLD - SQL Queries & Analysis Tool](http://www.aquafold.com/aquadatastudio/query_analysis_tool.html?gclid=CjwKCAjwo4jOBRBmEiwABWNaMZkQrmAfzbF38Bj4NQlv8degdcmG8hq_uPWjyIyyn5NacaKuGAO3TBoClKwQAvD_BwE).
 
 
 
