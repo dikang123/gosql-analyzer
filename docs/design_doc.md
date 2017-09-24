@@ -66,6 +66,9 @@ To fully understand and capture the main idea about this project, you need to lo
 * [Steps & Procedure to Use MSSQL Query Analyzer](http://j2eetutorials.50webs.com/use-mssql.html).
 * [SQL Server Query Analyzer](http://www.hitsw.com/support/kbase/sql_servers/SQL2000/Query_analyzer.htm).
 * [The Guru's Guide to Transact SQL](http://ccs1.hnue.edu.vn/hoanpt/DBMS/REF/thegurusguidetotransactsql2000.pdf).
+* [PERFORMANCE TUNING IN MICROSOFT SQL SERVER DBMS](http://www.ijcsmc.com/docs/papers/June2015/V4I6KJ13.pdf).
+* [Automatic Performance Diagnosis and Tuning in Oracle](http://cidrdb.org/cidr2005/papers/P07.pdf).
+* [SQL Server Execution Plans](https://download.red-gate.com/ebooks/SQL/eBOOK_SQLServerExecutionPlans_2Ed_G_Fritchey.pdf).
 
 
 

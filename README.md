@@ -9,7 +9,7 @@ The tool for analyzing SQL Queries to improve on Database Performance in DBMSs w
 
 # Installing the application
 
-1. Clone the repository and dependencies:
+1. Clone the repository and install dependencies:
 
 ```shell
 $ git clone https://github.com/ch3nkula/gosql-analyzer.git
@@ -37,10 +37,10 @@ $ make install
 
 # Design Document
 
-You can read the [design document](docs/design_doc.md) to understand how the application works basically.
+You can read the [design document](docs/design_doc.md) to understand how the application works basically. This document consists of information related to understanding the project and the proposed architecture of the system to be implemented.
 
 
 
 # Credits
 
-* [Alangi Derick](https://github.com/ch3nkula) - Author & Maintainer.
+* [Alangi Derick](https://github.com/ch3nkula) - Author & Maintainer **Go SQL Query Analyzer (GoSQA)**.
