@@ -1,7 +1,21 @@
+# Language
 language: go
 
+# Versions of Go be used in CI testing.
 go:
+  - 1.7
+  - 1.8
   - 1.9
+  - tip
 
+# Notify me via email if build fails or passes.
 notifications:
   email: true
+
+matrix:
+  # It's ok if our code fails on unstable development versions of Go.
+  allow_failures:
+    - go: tip
+  # Don't wait for tip tests to finish. Mark the test run green if the
+  # tests pass on the stable versions of Go.
+  fast_finish: true

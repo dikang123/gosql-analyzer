@@ -17,6 +17,6 @@ build:
 clean:
 	@echo "+ $@"
 	@rm -rf sanalyzer
-	@echo "Cleanup complete!"
+	@echo "+ Cleanup complete!"
 
 all: build clean
