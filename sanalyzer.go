@@ -42,7 +42,7 @@ func ClearScreen() {
 	if ok {                          // if we defined a clear function for that platform:
 		value() // we execute it
 	} else { // unsupported platform
-		panic("Your platform is unsupported so screen can't be cleared!")
+		panic("Your platform is unsupported, so the program cannot run. Sorry for the invconvience.")
 	}
 }
 
