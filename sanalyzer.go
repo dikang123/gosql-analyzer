@@ -19,6 +19,11 @@ var clear map[string]func() // create a map for storing clear functions
 // functions to perform clear screen operations in linux and windows platform
 func init() {
 	clear = make(map[string]func()) // Initialize it
+	clear["darwin"] = func() {
+		cmd := exec.Command("clear") // Mac OS systems
+		cmd.Stdout = os.Stdout
+		cmd.Run()
+	}
 	clear["linux"] = func() {
 		cmd := exec.Command("clear") // Linux systems
 		cmd.Stdout = os.Stdout
@@ -29,17 +34,12 @@ func init() {
 		cmd.Stdout = os.Stdout
 		cmd.Run()
 	}
-	clear["darwin"] = func() {
-		cmd := exec.Command("clear") // Mac OS systems
-		cmd.Stdout = os.Stdout
-		cmd.Run()
-	}
 }
 
 // ClearScreen clears the screen and prepare the console for the analyzer
 func ClearScreen() {
-	value, ok := clear[runtime.GOOS] //runtime.GOOS -> linux, windows, darwin etc.
-	if ok {                          // if we defined a clear func for that platform:
+	value, ok := clear[runtime.GOOS] // runtime.GOOS -> darwin, linux, windows etc.
+	if ok {                          // if we defined a clear function for that platform:
 		value() // we execute it
 	} else { // unsupported platform
 		panic("Your platform is unsupported, so the program cannot run. Sorry for the invconvience.")
@@ -60,7 +60,7 @@ func main() {
 	fmt.Println()
 
 	for {
-		// Shell of the tool.
+		// Shell of the tool
 		c.Printf("gosql-query-analyzer> ")
 
 		reader := bufio.NewReader(os.Stdin)
@@ -68,7 +68,7 @@ func main() {
 		query, _ := reader.ReadString('\n')
 
 		if strings.TrimRight(query, "\n") == "quit" {
-			//fmt.Println("Exiting Go SQL Query Analyzer...")
+			// fmt.Println("Exiting Go SQL Query Analyzer...")
 			c.Println("Press Ctrl + C to exit the console.")
 		}
 		c.Println("query: ", query)
