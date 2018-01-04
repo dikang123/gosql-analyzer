@@ -69,7 +69,10 @@ To fully understand and capture the main idea about this project, you need to lo
 * [PERFORMANCE TUNING IN MICROSOFT SQL SERVER DBMS](http://www.ijcsmc.com/docs/papers/June2015/V4I6KJ13.pdf).
 * [Automatic Performance Diagnosis and Tuning in Oracle](http://cidrdb.org/cidr2005/papers/P07.pdf).
 * [SQL Server Execution Plans](https://download.red-gate.com/ebooks/SQL/eBOOK_SQLServerExecutionPlans_2Ed_G_Fritchey.pdf).
-
+* [Techniques for improving the performance of SQL queries under workspaces in the Data Service Layer](https://www.ibm.com/support/knowledgecenter/en/SSZLC2_7.0.0/com.ibm.commerce.developer.soa.doc/refs/rsdperformanceworkspaces.htm).
+* [SQL Server Query Optimization Techniques - Tips for Writing Efficient and Faster Queries](http://www.ijsrp.org/research_paper_jun2012/ijsrp-June-2012-07.pdf).
+* [Query Optimization Techniques in Microsoft SQL Server](http://www.dbjournal.ro/archive/16/16_4.pdf).
+* [Improve Your Queries; Hints and Tips for Using SQL](http://www2.sas.com/proceedings/sugi29/270-29.pdf).
 
 
 # Other SQL Analyzer Tools (both online and offline)
